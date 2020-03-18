@@ -1,0 +1,18 @@
+create database sss;
+use sss;
+create table clients( id int NOT NULL AUTO_INCREMENT, x int(10), y int(10), tag int(10), PRIMARY KEY(id) );
+insert into clients values(1,300,55,1); 
+insert into clients values(1,260,55,1);
+insert into clients values(1,160,55,1);
+insert into clients values(1,300,100,1); 
+insert into clients values(1,260,100,1);
+insert into clients values(1,160,100,1);
+insert into clients values(1,300,160,1); 
+insert into clients values(1,260,160,1);
+insert into clients values(1,160,160,1);
+insert into clients values(1,300,215,1); 
+insert into clients values(1,260,215,1);
+insert into clients values(1,160,215,1);
+insert into clients values(1,300,260,1); 
+insert into clients values(1,260,260,1);
+insert into clients values(1,160,260,1);
